@@ -5,6 +5,7 @@ public class ScreenshotRenamer {
 
     // Entry point of the program
     public static void main(String[] args) throws Exception {
+        // Rename the images that ends with a .png
         File currentDirectory = new File("./");
         int nextScreenShotNumber = 1;
 
